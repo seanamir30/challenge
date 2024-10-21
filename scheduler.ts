@@ -7,9 +7,9 @@ export type Availability = {};
 export type Schedule = {};
 
 class Scheduler {
-    constructor() {}
+    constructor(lessons: Lesson[], availabilities: Availability[]) {}
 
-    schedule(lessons: Lesson[], availabilities: Availability[]): Schedule[] {
+    schedule(): Schedule[] {
         // TODO implement algorithm for scheduling here
 
         return [];

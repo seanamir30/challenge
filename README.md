@@ -20,10 +20,9 @@ If you have any questions, please let us know. Good luck! 🍀
 
 # Part 1 Schedule Pair-Programming Challenge
 
-In this challenge, you are given two main tasks.
+In this challenge, you will be tasked to **create an algorithm that will automatically schedule a professor's lessons depending on a their availability**.
 
-1. Create an algorithm that will automatically schedule a professor's lessons depending on a their availability.
-2. Create your own test scripts in Jest to test the accuracy and robustness of your algorithm.
+There is a test script that will be used check the accuracy and robustness of your algorithm afterwards.
 
 This is a **pair-programming exercise**, meaning you, the candidate, will solve the problem while the interviewer guides you. Throughout the challenge, you may be asked to explain your thinking and coding process.
 
@@ -48,12 +47,6 @@ This is a **pair-programming exercise**, meaning you, the candidate, will solve 
 3. You are required to implement the types `Lesson`, `Availability`, and `Schedule` in [scheduler.ts](scheduler.ts) yourself based on the requirements above above to demonstrate your proficiency in TypeScript. `Day` is already implemented.
 
 4. You are not allowed to install new libraries. You may use the built-in `Date` object in Javascript to process time-related data.
-
-5. Finally, you are tasked to create the sample data and test cases yourself in [scheduler.test.ts](scheduler.test.ts).
-    - Although it's important for the tests to pass, it's even more important that you provide well-thought-out code.
-    - Make sure to include any and all edge cases you can think of.
-    - **You should expect that your copy solution to be additionally tested beyond the copy tests during its review.**
-    - You may add your sample data in a separate file if you wish.
 
 # Example Output
 
@@ -137,6 +130,16 @@ Your algorithm should output the following:
 
 Note that a single lesson can be scheduled across multiple availabilities.
 
+# Challenge process
+## 1. Setup
+
+1. Clone this repository
+
+2. `npm install`
+
+3. `npm test` to run the tests
+
+
 # Part 2 Component Creation Challenge
 
 In this challenge, you are required to create a React component based on a provided Figma design.
@@ -170,15 +173,7 @@ Good luck! 🍀
 
 # Challenge process
 
-## 1. Setup
-
-1. Clone this repository
-
-2. `npm install`
-
-3. `npm test` to run the tests for Part 1 Challenge
-
-4. `npm run storybook` to run the storybook for Part 2 Challenge
+1. `npm run storybook` to run the storybook
 
 ## 2. Implement your solution
 
