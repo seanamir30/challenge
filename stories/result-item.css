@@ -1,0 +1,140 @@
+p {
+    all:unset;
+}
+
+h4 {
+    all: unset;
+}
+
+.container {
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #E5E6EE;
+    padding: 24px;
+    max-width: 930px;
+    box-sizing: border-box;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.heading-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.pmid {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    font-weight: 600;
+    color: #7E86A7;
+}
+
+.headline {
+    color: #53606D;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    max-width: 738px;
+}
+
+.content-label {
+    border-radius: 24px;
+    padding: 4px 12px;
+    display: flex;
+    gap: 8px;
+    background-color: #F5E9EA;
+    align-items: center;
+    justify-content: center;
+}
+
+.x-icon {
+    height: 13.33px;
+    width: 13.33px;
+}
+
+.label-name {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: #9F1E2F;
+}
+
+.summary {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: #53606D;
+}
+
+.tag-results {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.tag-result-container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tag-result-title {
+    min-width: 135px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: #53606D;
+    font-weight: 600;
+}
+
+.tag-container {
+    padding: 4px 8px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.clinical-trial {
+    background-color: #EDF1F7;
+    color: #345279;
+}
+
+.disease {
+    color: #7F8919;
+    background-color: #FAFCEA;
+}
+
+.intervention {
+    color: #268C85;
+    background-color: #ECFCFB;
+}
+
+.outcome {
+    color: #60419B;
+    background-color: #F5F0FF;
+}
+
+.treatment {
+    color: #7E324E;
+    background-color: #FAEEF2;
+}
+
+
+
